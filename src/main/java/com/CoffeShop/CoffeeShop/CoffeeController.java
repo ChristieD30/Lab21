@@ -31,7 +31,7 @@ public ModelAndView add(@RequestParam("firstname")String fname)
 {
 p.setFirstName(fname);
 	
-String sayHello = "Hello , " + p.getFirstName();
+String sayHello = "Hello, " + p.getFirstName();
  return new ModelAndView("AddUser", "userData", sayHello);	
 }
 

@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300|Unica+One');
 body{
-	font-family: 'Open Sans Condensed'
+	font-family: 'Open Sans Condensed';
+	background: url('http://i63.tinypic.com/2hpreo4.jpg');
+	
 }
 img{
 	display: block;
@@ -17,9 +19,22 @@ h1{
 	text-align:center;
 	
 }
-div{
-	position: fixed;
-	text-align: right;
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 25px;
+}
+#register{
+	font-family: 'Unica one';
+	font-size: 30px;
 }
 
 a{
