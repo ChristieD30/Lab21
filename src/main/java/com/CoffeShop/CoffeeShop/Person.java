@@ -7,16 +7,27 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private String email;
-	private int phoneNumber;
+	private String phoneNumber;
 	private String password;
+	private int id;
 	
 	
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
 	public Person() {
 		super();
 	}
 
 
-	public Person(String firstName, String lastName, String email, int phoneNumber, String password) {
+	public Person(String firstName, String lastName, String email, String phoneNumber, String password) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -56,12 +67,12 @@ public class Person {
 	}
 
 
-	public int getPhoneNumber() {
+	public String getPhoneNumber() {
 		return phoneNumber;
 	}
 
 
-	public void setPhoneNumber(int phoneNumber) {
+	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
 
