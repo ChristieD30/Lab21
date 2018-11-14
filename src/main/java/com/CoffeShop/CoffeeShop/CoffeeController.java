@@ -23,14 +23,14 @@ ItemsJDBCDao dao2;
 @RequestMapping("/")
 public ModelAndView index() {
 	ModelAndView mv = new ModelAndView("index");
-	mv.addObject("registerLink", "/Register");
+	mv.addObject("registerLink", "/register-page");
 	mv.addObject("order", "/Coffee");
 	return mv;
 	
 }
-@RequestMapping(value = "/Register", method = RequestMethod.GET)
+@RequestMapping(value = "/register-page", method = RequestMethod.GET)
 public ModelAndView register(){
-    return new ModelAndView("Register");
+    return new ModelAndView("register-page");
 }
 
 @RequestMapping("/newuser")
